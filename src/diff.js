@@ -22,3 +22,4 @@ export function summarise(plan, { prune = false } = {}) {
   if (prune) for (const path of plan.remove) lines.push(`- ${path}`);
   return lines;
 }
+
