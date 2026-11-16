@@ -33,3 +33,4 @@ export function encodePath(path) {
 export function decodePath(encoded) {
   return encoded.split('/').map(decodeURIComponent).join('/');
 }
+
