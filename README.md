@@ -83,3 +83,4 @@ The server speaks plain HTTP, so put it behind TLS or a private network if the d
 - CLI (9): argument parsing, usage and help, unknown commands, missing directory, push, diff and delete end to end, rejected token, `serve` lifecycle.
 - Manifests and diffing (7): scanning, ignore patterns, anchored patterns, glob conversion, plan classification, summaries.
 - Paths (4): safe paths, unsafe paths, containment, encode and decode round trip.
+
