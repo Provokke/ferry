@@ -120,4 +120,3 @@ export async function run(argv, { stdout = process.stdout, stderr = process.stde
     throw error;
   }
 }
-

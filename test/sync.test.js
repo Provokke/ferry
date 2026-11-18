@@ -178,4 +178,3 @@ test('uploads in parallel produce the same result as one at a time', async () =>
   await push({ source, server: url, concurrency: 8 });
   assert.deepEqual(await scan(target), await scan(source));
 });
-

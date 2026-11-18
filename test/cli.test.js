@@ -100,4 +100,3 @@ test('serve starts, reports its address and stops on abort', async () => {
     await cleanup(dir);
   }
 });
-

@@ -28,4 +28,3 @@ export function collector() {
   const chunks = [];
   return { write: (text) => chunks.push(text), text: () => chunks.join('') };
 }
-

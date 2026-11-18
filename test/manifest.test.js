@@ -77,4 +77,3 @@ test('summarise only lists removals when pruning', () => {
   assert.deepEqual(summarise(plan), ['+ a', '~ b']);
   assert.deepEqual(summarise(plan, { prune: true }), ['+ a', '~ b', '- c']);
 });
-

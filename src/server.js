@@ -170,4 +170,3 @@ export function createFerryServer({ root, token = null, maxBytes = 1024 * 1024 *
     }
   };
 }
-
